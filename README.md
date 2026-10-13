@@ -32,12 +32,15 @@ This command runs a tool called adlc, which stands for AI development lifecycle.
 
 ```
 uvx --from git+https://github.com/unblocked/adlc.git adlc baseline --last 1000
-uvx --from git+https://github.com/unblocked/engineering-social-graph.git social-graph run --limit 1000
 ```
 
 ### social-graph (Requires repo access)
 
 This command runs a tool called social-graph. It reads the same pull request history and works out who reviews whose work and where the expertise in the codebase lives.
+
+```
+uvx --from git+https://github.com/unblocked/engineering-social-graph.git social-graph run --limit 1000
+```
 
 ## Organization Readiness
 
